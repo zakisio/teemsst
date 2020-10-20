@@ -1,74 +1,32 @@
-＃Visual Studio2015ユーザー固有のファイル
-.vs /
+# Prerequisites
+*.d
 
-＃コンパイルされたオブジェクトファイル
-* .slo
-* .lo
-* .o
-* .obj
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-＃プリコンパイル済みヘッダー
-* .gch
-* .pch
+# Precompiled Headers
+*.gch
+*.pch
 
-＃コンパイルされたダイナミックライブラリ
-* .so
-* .dylib
-* .dll
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-＃のFortranモジュールファイル
-* .mod
+# Fortran module files
+*.mod
+*.smod
 
-＃コンパイルされた静的ライブラリ
-* .lai
-* .la
-* .a
-* .lib
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
-＃実行可能ファイル
-* .exe
-* .out
-* .app
-* .ipa
-
-＃これらのプロジェクトファイルはエンジンで生成できます
-* .xcodeproj
-* .xcworkspace
-* .sln
-* .suo
-* .opensdf
-* .sdf
-* .VC.db
-* .VC.opendb
-
-＃プリコンパイル済みアセット
-SourceArt / ** / * .png
-SourceArt / ** / * .tga
-
-＃バイナリファイル
-バイナリ/ *
-プラグイン/ * /バイナリ/ *
-
-＃ビルド
-ビルド/ *
-
-＃ホワイトリストPakBlacklist- <BuildConfiguration> .txtファイル
-！ビルド/ * /
-ビルド/ * / **
-！ビルド/ * / PakBlacklist * .txt
-
-＃ビルドでアイコンファイルを無視しないでください
-！ビルド/ ** / * .ico
-
-＃マップの構築データ
-* _BuiltData.uasset
-
-＃エディターによって生成された構成ファイル
-保存済み/ *
-
-＃エンジンが使用するコンパイル済みソースファイル
-中級/ *
-プラグイン/ * /中級/ *
-
-＃エディターが使用するファイルをキャッシュする
-DerivedDataCache / *
+# Executables
+*.exe
+*.out
+*.app
